@@ -1,8 +1,10 @@
 package fr.esgi;
 
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
+@NoArgsConstructor
 public class Notation {
 
     private User user;

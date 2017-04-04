@@ -1,10 +1,12 @@
 package fr.esgi;
 
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 import static org.apache.commons.lang.StringUtils.isNotBlank;
 
 @AllArgsConstructor
+@NoArgsConstructor
 public class User {
 
     private String firstname;
