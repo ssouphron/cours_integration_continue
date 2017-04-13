@@ -16,7 +16,7 @@ public class UserTest {
     @Test
     public void should_not_valid_firstname_empty() {
         User user = new User("", "test", 20);
-        assertFalse(user.isValid());
+        assertTrue(user.isValid());
     }
 
     @Test
